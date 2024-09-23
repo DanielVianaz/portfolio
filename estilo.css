@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fundo claro */
+}
+
+header {
+    background: #f8f9fa; /* Cor de fundo do cabeçalho */
+}
+
+.card {
+    transition: transform 0.2s; /* Animação ao passar o mouse */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de zoom */
+}
+
+footer {
+    background: #343a40; /* Cor de fundo do rodapé */
+    color: white;
+}
+
+#info {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Fundo branco */
+}
